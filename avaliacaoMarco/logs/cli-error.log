@@ -1,0 +1,58 @@
+2022-03-10 23:21:49 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'avaliacao.areas' doesn't exist in C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 160
+Stack Trace:
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'avaliacao.areas' doesn't exist in C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Connection.php:306
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Connection.php:309
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:158
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\bin\cake.php:12
+
+
+
+2022-03-10 23:28:46 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'avaliacao.areas' doesn't exist in C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 160
+Stack Trace:
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'avaliacao.areas' doesn't exist in C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Connection.php:306
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Connection.php:309
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:158
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:118
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\ORM\Table.php:513
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\bake\src\Command\ModelCommand.php:111
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\bake\src\Command\ModelCommand.php:94
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\Users\aluno.IFMT\Documents\Raul\avaliacaoMarco\bin\cake.php:12
+
+
+
